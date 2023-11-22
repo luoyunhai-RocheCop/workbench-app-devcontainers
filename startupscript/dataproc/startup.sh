@@ -366,10 +366,7 @@ readonly TERRA_SERVER
 # If the server environment is a verily server, use the verily download script.
 if [[ "${TERRA_SERVER}" == *"verily"* ]]; then
   # Map the CLI server to appropriate AFS service path and fetch the CLI distribution path
-  if ! versionJson="$(curl -s "https://${TERRA_SERVER/verily/terra}-axon.api.verily.com/version")"; then
-    >&2 echo "ERROR: Failed to get version file from ${TERRA_SERVER}"
-    exit 1
-  fi
+  versionJson="$(curl -s "https://${TERRA_SERVER/verily/terra}-axon.api.verily.com/version")"
   cliDistributionPath="$(echo ${versionJson} | jq -r '.cliDistributionPath')"
 
   ${RUN_AS_LOGIN_USER} "\
