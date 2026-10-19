@@ -1,4 +1,4 @@
-FROM us-west2-docker.pkg.dev/shared-pub-buckets-94mvrf/workbench-artifacts/app-aou-jupyter@sha256:17415724179a9c51643f7f6135b9306a34ec3506fcf221b0cc8aa2c73749249e
+FROM us-west2-docker.pkg.dev/shared-pub-buckets-94mvrf/workbench-artifacts/app-aou-jupyter@sha256:5b0e8969dc66acaeef72ca3b54e66d6ae096827a88c3dcc9a4e150a65ee774ab
 
 COPY --from=extension-builder --chown=$JUPYTER_USER \
     /dist/snippets $JUPYTER_USER_HOME_DIR/.local/share/jupyter/snippets
