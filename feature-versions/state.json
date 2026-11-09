@@ -1,12 +1,12 @@
 {
   "ghcr.io/devcontainers/features/aws-cli": {
     "tag": "1",
-    "installed": "sha256:bbc9fd513c22e331953126c75ad7b2ed1f9044f1cd5890b7073b634810459b18",
+    "installed": "sha256:d6dee5e399eaee4090b5847afb7516ae7b52a066a863cc29120f66bea9f2d580",
     "filter": ".*\\/\\.devcontainer\\.json"
   },
   "ghcr.io/devcontainers/features/java": {
     "tag": "1",
-    "installed": "sha256:df67d6ff6e9cdd858207ae9e92a99ddb88384b789f79eecd6f873216e951d286",
+    "installed": "sha256:61a839211feda1e2a1f10646648a948e733e4d98d770f3a4b6698a3c5fc92abe",
     "filter": ".*\\/\\.devcontainer\\.json"
   },
   "ghcr.io/dhoeric/features/google-cloud-cli": {
@@ -21,22 +21,22 @@
   },
   "ghcr.io/devcontainers/features/common-utils": {
     "tag": "2",
-    "installed": "sha256:6d22e5475de578a8dadf19ce15c0ed09d82d8e3006b851dae7fe59a959c9b787",
+    "installed": "sha256:e76a6a8a35d1ad824daad1540725e0ec9f8ed2dc00d2850e990a9830013c7d08",
     "filter": ".*\\/\\.devcontainer\\.json"
   },
   "us-west2-docker.pkg.dev/shared-pub-buckets-94mvrf/workbench-artifacts/app-wondershaper": {
     "tag": "ov-prod",
-    "installed": "sha256:d10279c22f794299d42906d63c2578a019a8a7a8164c8415f0110a0834c7d5c9",
+    "installed": "sha256:1740a916e53c2a6211136519fe1ad10048f84170e9b60a8f90f2e511fd7d6828",
     "filter": ".*\\/docker-compose.yaml"
   },
   "us-west2-docker.pkg.dev/shared-pub-buckets-94mvrf/workbench-artifacts/app-jupyter-extension-builder": {
     "tag": "ov-prod",
-    "installed": "sha256:5dc65bd299e96d5d71e3f0d91388f864814153ce4b921ddbab96c9b5440cbd36",
+    "installed": "sha256:9c8acbb2d69ecbd907e6c556684b43143d30c13d91c5e7c429a15d365143285b",
     "filter": ".*\\/Dockerfile"
   },
   "us-west2-docker.pkg.dev/shared-pub-buckets-94mvrf/workbench-artifacts/app-aou-jupyter": {
     "tag": "ov-prod",
-    "installed": "sha256:17415724179a9c51643f7f6135b9306a34ec3506fcf221b0cc8aa2c73749249e",
+    "installed": "sha256:bba5a611c03e6af44ae343c1194eac537c49edf23090ce7ffdf84686b173a66b",
     "filter": ".*\\/Dockerfile"
   }
 }
